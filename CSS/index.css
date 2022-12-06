@@ -1,0 +1,201 @@
+body {
+    margin: 0 auto;
+    padding: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1400px;
+    height: 1000px;
+    float: left;
+    background-color: white;
+}
+
+.navbar {
+    width: 1400px;
+    height: 110px;
+    float: left;
+}
+
+.contact {
+    width: 1400px;
+    height: 35px;
+    float: left;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone {
+    width: 350px;
+    height: 35px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone i {
+    color: white;
+    font-size: 13px;
+}
+
+.phone span {
+    color: white;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.sosial {
+    width: 250px;
+    height: 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sosial i {
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.sosial a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1400px;
+    height: 75px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 250px;
+    height: 75px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 25px;
+    color: black;
+}
+
+.menu {
+    width: 500px;
+    height: 75px;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 5pxpx;
+    margin: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navbarEND */
+/* =========================== */
+
+.center {
+    width: 1400px;
+    height: 600px;
+    float: left;
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/13/13/51/marble-2398946__480.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wlcm {
+    width: 800px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+}
+
+.wlcm span {
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mrs {
+    color: rgb(62, 62, 181);
+}
+
+.wlcm h1 {
+    color: gray;
+}
+
+.startbutton {
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: blue;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    color: aliceblue;
+}
+
+/* centerEnd */
+/* ===================== */
+
+.footer{
+    width: 1400px;
+    height: 290px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sqr{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    border: solid 2px gray;
+}
+
+.litl{
+    width: 200px;
+    height: 60px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px gray;
+}
+
+.litl span{
+    color: black;
+    font-size: 25px;
+
+}
+
+.bg{
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+
+
